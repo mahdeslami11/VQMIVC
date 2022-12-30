@@ -1,10 +1,10 @@
+## VQMIVC: Vector Quantization and Mutual Information-Based Unsupervised Speech Representation Disentanglement for One-shot Voice Conversion (Interspeech 2021)
 ## The purpose of project: to soften the sound and remove the noises and distortions and improve the sound quality for the listener
 ## Project Overview: The use of quantized vectors to change the sound in such a way that in the sound wave, each peak becomes a vector and the necessary changes are made on that vector, and at the end, the new vectors replace the original vectors and thus in the sound The desired changes are applied.
 ## System operation: The sound wave is converted into quantized vectors, and its extremes go to a section, and the vectors also go to the encoder. Then the necessary changes are made in the vectors and the new vectors are sent to the decoder
 ## In the original codes, the maximum length of the quantized vectors was 8 units, which I reduced to 7.15 units after trial and error to improve system performance.
 ## I reduced the distortions a little and adjusted the distance between the extremes when they passed the filter in proportion to each group of vectors, in this way a Gauss-like distribution was created in the audio tape, which causes more bass and better sound quality.
 ## im Hossein Nazari, student of the University of Science and Research, Bachelor of Electrical Engineering,tehran,iran.Sorry if I messed up the order of the codes I hope its better. I have noted my changes and impressions of the source codes at the bottom of each of them under the title of Hossein Nazari notes
-## VQMIVC: Vector Quantization and Mutual Information-Based Unsupervised Speech Representation Disentanglement for One-shot Voice Conversion (Interspeech 2021)
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2106.10132)
 [![GitHub Stars](https://img.shields.io/github/stars/Wendison/VQMIVC?style=social)](https://github.com/Wendison/VQMIVC)
 [![download](https://img.shields.io/github/downloads/Wendison/VQMIVC/total.svg)](https://github.com/Wendison/VQMIVC/releases)
