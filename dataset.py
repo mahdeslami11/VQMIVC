@@ -58,6 +58,6 @@ class CPCDataset_sameSeq(Dataset):
         lf0 = lf0[pos:pos + self.n_sample_frames]
         return torch.from_numpy(mel), torch.from_numpy(lf0), self.speakers.index(speaker)
 
-
+# این دیتاست صرفا یک کلاس است  که برای سازماندهی بردارهای موج صوتی مورد استفاده قرار می گیرد
 
 
