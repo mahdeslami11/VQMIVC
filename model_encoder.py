@@ -445,10 +445,11 @@ class CPCLoss_sameSeq(nn.Module):
         loss = torch.stack(losses).mean()
         return loss, accuracies
     
-# محوریت اصلی کد ها تبدیل بردار های استخراج شده از موج صوتی و اعمال تبدیل ها و تغییرات مناسب جهت انتقال به دیکودر است
-# بردارها اگر از حدودی کوتاهر باشند کمی بلندتر می شوند و  نقاط اکسترمم به نسبت بردار های اطرافش در یک گروه تغییر می کنند 
-# مثلا باید تمام بردارهایی که طول بیشتر 8 دارند کوتاه شوند و  تمام بردار ها فقط محدوده خاصی خواهند داشت
-# نوسانات زیاد اصلاح می شود و اندازه بردار ها در یک گروه برداری اختلاف چندانی ندارند.
-#نتیجه : صدا بم می شود و از نازکی و بد شنیده شدن صدا کم می شود
-# می توان نتیجه را در https://replicate.com/wendison/vqmivc مشاهده کرد
+#hossein nazari notes :    
+#The main focus of the codes is to transform the vectors extracted from the sound wave and apply appropriate transformations and changes to transfer to the decoder.
+#If the vectors are shorter than a certain limit, they become a little longer and the extreme points change in relation to the surrounding vectors in the same group.
+#For example, all vectors that have a length greater than 8 must be shortened, and all vectors will only have a certain range
+#Many fluctuations are corrected and the sizes of vectors in a vector group do not differ much.
+#Result: The sound becomes low and the sound becomes thin and hard to hear
+#The result can be seen at https://replicate.com/wendison/vqmivc
 
