@@ -1,3 +1,5 @@
+# هدف پروژه : بم کردن بیشتر صدا و جلوگیری از ایجاد نوسانات صوتی با استفاده از فیلتر. در خروجی صدایی رساتر و بم تر خواهیم داشت.
+# نمای کلی پروژه : استفاده از بردارهای کوانتیده برای تغییر صدا به این صورت که در موج صوتی هر قله تبدیل به یک بردار شده و تغییرات لازم روی آن بردار انجام می شود و در انتها بردارهای جدید جایگزین بردارهای اولیه شده و به این شکل در صدا تغییرات مطلوب اعمال می شود.
 ## VQMIVC: Vector Quantization and Mutual Information-Based Unsupervised Speech Representation Disentanglement for One-shot Voice Conversion (Interspeech 2021)
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2106.10132)
 [![GitHub Stars](https://img.shields.io/github/stars/Wendison/VQMIVC?style=social)](https://github.com/Wendison/VQMIVC)
@@ -87,6 +89,5 @@ If the code is used in your research, please <a class="github-button" href="http
 * Estimation of mutual information is modified from [CLUB](https://github.com/Linear95/CLUB);
 * Speech features extraction is based on [espnet](https://github.com/espnet/espnet) and [Pyworld](https://github.com/JeremyCCHsu/Python-Wrapper-for-World-Vocoder).
 
-
-# نمای کلی پروژه : استفاده از بردارهای کوانتیده برای تغییر صدا به این صورت که در موج صوتی هر قله تبدیل به یک بردار شده و تغییرات لازم روی آن بردار انجام می شود و در انتها بردارهای جدید جایگزین بردارهای اولیه شده و به این شکل در صدا تغییرات مطلوب اعمال می شود .
+ 
 
