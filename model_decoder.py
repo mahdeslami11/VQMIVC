@@ -164,5 +164,7 @@ class Decoder_ac(nn.Module):
                 loss = loss + F.l1_loss(mel_outputs, mel_target) + \
                     F.l1_loss(mel_outputs_postnet, mel_target)
             return loss, mel_outputs_postnet
-
+        
+# مشکل خطوط 51 و 94 و 122 برطرف شد که مشکل سینتکس داشت
+# عملکرد دیکودر به این صورت هست که باید داده های نهایی را به بردارهای صوتی تبدیل کند که در بالا انجام شده
 
