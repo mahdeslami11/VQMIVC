@@ -167,7 +167,9 @@ save_json(save_root, train_results, 'train')
 save_json(save_root, valid_results, 'valid')
 save_json(save_root, test_results, 'test')
 
-
+#hossein nazari notes :
+#The action of combining the codes that were written in the previous sources is done in this part, and as a result, the vectors
+#go to the decoder for the final part of the project.
     
 
 
