@@ -87,5 +87,7 @@ If the code is used in your research, please <a class="github-button" href="http
 * Estimation of mutual information is modified from [CLUB](https://github.com/Linear95/CLUB);
 * Speech features extraction is based on [espnet](https://github.com/espnet/espnet) and [Pyworld](https://github.com/JeremyCCHsu/Python-Wrapper-for-World-Vocoder).
 
-
+# hossein nazari comments :
+# check shod moshkeli nadasht.
+# استفاده از بردارهای کوانتیده برای تغییر صدا به این صورت که در نوار صوتی هر قله تبدیل به یک بردار شده و تغییرات لازم روی آن بردار انجام می شود و در انتها بردارهای جدید جایگزین بردارهای اولیه شده و به این شکل در صدا تغییرات مطلوب اعمال می شود .
 
