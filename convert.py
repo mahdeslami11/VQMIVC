@@ -152,8 +152,9 @@ def convert(cfg):
 
 if __name__ == "__main__":
     convert()
-
-# از خط 1 تا 24 فقط فراخوانی های لازم انجام شده است
-# تا خط 32 طول موج هایی به حداقل اندازه 2 و حداکثر اندازه 8 انتخاب می شوند و با طول موج های دیگر کاری نداریم
-# خط های بعدی اکسترمم های موج استخراج شده که اگر از اندازه ی تعیین شده بیشتر باشند مقدار آن کاهش یابد و اگر مقدار آن کم بود به اندازه ای افزایش یابد
-#  اگر دامنه به اندازه ی خیلی زیاد نزدیک صفر کم شد تغییراتی ایجاد نمی شود و به تناوب بعدی می رود و این روند ادامه دارد
+    
+#hossein nazari notes :
+#From line 1 to 24, only necessary calls are made
+#Up to line 32, wavelengths with a minimum size of 2 and a maximum size of 8 are selected, and we have nothing to do with other wavelengths.
+#The following lines are the extremes of the extracted wave, which if they are greater than the determined size, its value will be reduced, and if its value is small, it will be increased by a certain amount.
+#If the amplitude decreases too much near zero, no changes are made and it goes to the next period and this process continues.
