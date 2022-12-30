@@ -165,6 +165,7 @@ class Decoder_ac(nn.Module):
                     F.l1_loss(mel_outputs_postnet, mel_target)
             return loss, mel_outputs_postnet
         
-# مشکل خطوط 51 و 94 و 122 برطرف شد که مشکل سینتکس داشت
-# عملکرد دیکودر به این صورت هست که باید داده های نهایی را به بردارهای صوتی تبدیل کند که در بالا انجام شده
+#hossein nazari notes:        
+#Fixed the problem of lines 51, 94 and 122, which had a syntax problem
+#The function of the decoder is to convert the final data into audio vectors, which is done above
 
